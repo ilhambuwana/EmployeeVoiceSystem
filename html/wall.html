@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Site</title>
+    <link rel="stylesheet" href="../css/wall.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="left-section">
+                <h1 class="logo">SocialSite</h1>
+                <select id="theme-selector" class="theme-selector">
+                    <option value="default">Default</option>
+                    <option value="dark">Dark</option>
+                    <option value="light">Light</option>
+                </select>
+            </div>
+            <ul class="nav-links">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="messages.html">Messages</a></li>
+                    <li><a href="friends.html">Friends</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="settings.html">Settings</a></li>
+                    <li><a href="logout.html">Logout</a></li>
+                </ul>
+                
+            </ul>
+            
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="post-form">
+            <h2>Post a Photo</h2>
+            <form id="photo-post-form">
+                <input type="file" id="photo-input" accept="image/*" required />
+                <button type="submit">Post</button>
+            </form>
+        </section>
+        <section class="posts" id="posts-section">
+            <!-- Posts will be dynamically added here -->
+        </section>
+        <aside class="friends-list">
+    </main>
+    <footer>
+        <p>&copy; 2024 Wall Of Fame. All rights reserved.</p>
+    </footer>
+    <script src="../js/wall.js"></script>
+</body>
+</html>
